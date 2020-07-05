@@ -12,7 +12,6 @@ const ArticleTemplate = ({ data }) => (
         {data.strapiArticle.author.username}
       </Link>
     </p>
-    <Img fixed={data.strapiArticle.image.childImageSharp.fixed} />
     <p>{data.strapiArticle.content}</p>
   </Layout>
 )
