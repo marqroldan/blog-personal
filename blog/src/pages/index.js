@@ -31,13 +31,6 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          image {
-            childImageSharp {
-              fixed(width: 200, height: 125) {
-                ...GatsbyImagnpeSharpFixed
-              }
-            }
-          }
           title
           content
         }

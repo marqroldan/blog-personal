@@ -23,7 +23,7 @@
       "plugin": "upload"
     },
     "author": {
-      "model": "permission",
+      "model": "user",
       "via": "articles",
       "plugin": "users-permissions"
     },
